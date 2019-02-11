@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA340E0E221199170065F4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA340E0D221199170065F4CC /* AppDelegate.swift */; };
+		AA340E10221199170065F4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA340E0F221199170065F4CC /* ViewController.swift */; };
+		AA340E13221199170065F4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA340E11221199170065F4CC /* Main.storyboard */; };
+		AA340E15221199190065F4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA340E14221199190065F4CC /* Assets.xcassets */; };
+		AA340E18221199190065F4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA340E16221199190065F4CC /* LaunchScreen.storyboard */; };
+		AA340E23221199190065F4CC /* olive_habbitooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA340E22221199190065F4CC /* olive_habbitooTests.swift */; };
+		AA340E2E221199190065F4CC /* olive_habbitooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA340E2D221199190065F4CC /* olive_habbitooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA340E1F221199190065F4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA340E02221199170065F4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA340E09221199170065F4CC;
+			remoteInfo = "olive-habbitoo";
+		};
+		AA340E2A221199190065F4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA340E02221199170065F4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA340E09221199170065F4CC;
+			remoteInfo = "olive-habbitoo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA340E0A221199170065F4CC /* olive-habbitoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "olive-habbitoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA340E0D221199170065F4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA340E0F221199170065F4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA340E12221199170065F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA340E14221199190065F4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA340E17221199190065F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA340E19221199190065F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA340E1E221199190065F4CC /* olive-habbitooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "olive-habbitooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA340E22221199190065F4CC /* olive_habbitooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olive_habbitooTests.swift; sourceTree = "<group>"; };
+		AA340E24221199190065F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA340E29221199190065F4CC /* olive-habbitooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "olive-habbitooUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA340E2D221199190065F4CC /* olive_habbitooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olive_habbitooUITests.swift; sourceTree = "<group>"; };
+		AA340E2F221199190065F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA340E07221199170065F4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E1B221199190065F4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E26221199190065F4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA340E01221199170065F4CC = {
+			isa = PBXGroup;
+			children = (
+				AA340E0C221199170065F4CC /* olive-habbitoo */,
+				AA340E21221199190065F4CC /* olive-habbitooTests */,
+				AA340E2C221199190065F4CC /* olive-habbitooUITests */,
+				AA340E0B221199170065F4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA340E0B221199170065F4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA340E0A221199170065F4CC /* olive-habbitoo.app */,
+				AA340E1E221199190065F4CC /* olive-habbitooTests.xctest */,
+				AA340E29221199190065F4CC /* olive-habbitooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA340E0C221199170065F4CC /* olive-habbitoo */ = {
+			isa = PBXGroup;
+			children = (
+				AA340E0D221199170065F4CC /* AppDelegate.swift */,
+				AA340E0F221199170065F4CC /* ViewController.swift */,
+				AA340E11221199170065F4CC /* Main.storyboard */,
+				AA340E14221199190065F4CC /* Assets.xcassets */,
+				AA340E16221199190065F4CC /* LaunchScreen.storyboard */,
+				AA340E19221199190065F4CC /* Info.plist */,
+			);
+			path = "olive-habbitoo";
+			sourceTree = "<group>";
+		};
+		AA340E21221199190065F4CC /* olive-habbitooTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA340E22221199190065F4CC /* olive_habbitooTests.swift */,
+				AA340E24221199190065F4CC /* Info.plist */,
+			);
+			path = "olive-habbitooTests";
+			sourceTree = "<group>";
+		};
+		AA340E2C221199190065F4CC /* olive-habbitooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA340E2D221199190065F4CC /* olive_habbitooUITests.swift */,
+				AA340E2F221199190065F4CC /* Info.plist */,
+			);
+			path = "olive-habbitooUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA340E09221199170065F4CC /* olive-habbitoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA340E32221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitoo" */;
+			buildPhases = (
+				AA340E06221199170065F4CC /* Sources */,
+				AA340E07221199170065F4CC /* Frameworks */,
+				AA340E08221199170065F4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "olive-habbitoo";
+			productName = "olive-habbitoo";
+			productReference = AA340E0A221199170065F4CC /* olive-habbitoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA340E1D221199190065F4CC /* olive-habbitooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA340E35221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitooTests" */;
+			buildPhases = (
+				AA340E1A221199190065F4CC /* Sources */,
+				AA340E1B221199190065F4CC /* Frameworks */,
+				AA340E1C221199190065F4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA340E20221199190065F4CC /* PBXTargetDependency */,
+			);
+			name = "olive-habbitooTests";
+			productName = "olive-habbitooTests";
+			productReference = AA340E1E221199190065F4CC /* olive-habbitooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA340E28221199190065F4CC /* olive-habbitooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA340E38221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitooUITests" */;
+			buildPhases = (
+				AA340E25221199190065F4CC /* Sources */,
+				AA340E26221199190065F4CC /* Frameworks */,
+				AA340E27221199190065F4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA340E2B221199190065F4CC /* PBXTargetDependency */,
+			);
+			name = "olive-habbitooUITests";
+			productName = "olive-habbitooUITests";
+			productReference = AA340E29221199190065F4CC /* olive-habbitooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA340E02221199170065F4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Olivier CHEN";
+				TargetAttributes = {
+					AA340E09221199170065F4CC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AA340E1D221199190065F4CC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AA340E09221199170065F4CC;
+					};
+					AA340E28221199190065F4CC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AA340E09221199170065F4CC;
+					};
+				};
+			};
+			buildConfigurationList = AA340E05221199170065F4CC /* Build configuration list for PBXProject "olive-habbitoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA340E01221199170065F4CC;
+			productRefGroup = AA340E0B221199170065F4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA340E09221199170065F4CC /* olive-habbitoo */,
+				AA340E1D221199190065F4CC /* olive-habbitooTests */,
+				AA340E28221199190065F4CC /* olive-habbitooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA340E08221199170065F4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA340E18221199190065F4CC /* LaunchScreen.storyboard in Resources */,
+				AA340E15221199190065F4CC /* Assets.xcassets in Resources */,
+				AA340E13221199170065F4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E1C221199190065F4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E27221199190065F4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA340E06221199170065F4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA340E10221199170065F4CC /* ViewController.swift in Sources */,
+				AA340E0E221199170065F4CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E1A221199190065F4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA340E23221199190065F4CC /* olive_habbitooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA340E25221199190065F4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA340E2E221199190065F4CC /* olive_habbitooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA340E20221199190065F4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA340E09221199170065F4CC /* olive-habbitoo */;
+			targetProxy = AA340E1F221199190065F4CC /* PBXContainerItemProxy */;
+		};
+		AA340E2B221199190065F4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA340E09221199170065F4CC /* olive-habbitoo */;
+			targetProxy = AA340E2A221199190065F4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA340E11221199170065F4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA340E12221199170065F4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA340E16221199190065F4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA340E17221199190065F4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA340E30221199190065F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA340E31221199190065F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA340E33221199190065F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA340E34221199190065F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA340E36221199190065F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olive-habbitoo.app/olive-habbitoo";
+			};
+			name = Debug;
+		};
+		AA340E37221199190065F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olive-habbitoo.app/olive-habbitoo";
+			};
+			name = Release;
+		};
+		AA340E39221199190065F4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitooUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "olive-habbitoo";
+			};
+			name = Debug;
+		};
+		AA340E3A221199190065F4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = "olive-habbitooUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RedOlive.olive-habbitooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "olive-habbitoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA340E05221199170065F4CC /* Build configuration list for PBXProject "olive-habbitoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA340E30221199190065F4CC /* Debug */,
+				AA340E31221199190065F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA340E32221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA340E33221199190065F4CC /* Debug */,
+				AA340E34221199190065F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA340E35221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA340E36221199190065F4CC /* Debug */,
+				AA340E37221199190065F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA340E38221199190065F4CC /* Build configuration list for PBXNativeTarget "olive-habbitooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA340E39221199190065F4CC /* Debug */,
+				AA340E3A221199190065F4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA340E02221199170065F4CC /* Project object */;
+}
